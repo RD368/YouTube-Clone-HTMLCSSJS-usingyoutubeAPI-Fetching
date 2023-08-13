@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone with API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar start -->
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" alt="logo" class="logo">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="img/search.PNG" alt="search"></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- sidebar start -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">Home</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">Explore</a>
+        <a href="#" class="links"><img src="img/subscription.PNG" alt="">Subscription</a>
+        <hr class="separator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">Library</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">History</a>
+        <a href="#" class="links"><img src="img/your-video.PNG" alt="">Your Videos</a>
+        <a href="#" class="links"><img src="img/watch-later.PNG" alt="">Watch Later</a>
+        <a href="#" class="links"><img src="img/liked video.PNG" alt="">Liked Videos</a>
+        <a href="#" class="links"><img src="img/show more.PNG" alt="">Show more</a>
+    </div>
+    <!-- sidebar end -->
+    <!-- filter start -->
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">Web development</button>
+        <button class="filter-options">Dot Net</button>
+        <button class="filter-options">Entertainment</button>
+        <button class="filter-options">Movies</button>
+        <button class="filter-options">JavaScript</button>
+        <button class="filter-options">SQL</button>
+        <button class="filter-options">MVC</button>
+        <button class="filter-options">trending</button>
+    </div>
+    <!-- filter end -->
+
+    <!-- video start -->
+    <!-- we will use this video div later and fetch this section from youtube api -->
+    <div class="video-container">
+        <!-- <div class="video">
+            <img src="img/profile-pic.png" alt="" class="thumbnail">
+            <div class="content">
+                <img src="img/profile-pic.png" alt="" class="channel-icon">
+                <h4 class="title">Youtube clone 2023 || with youtube and fetch API</h4>
+                <p class="channel-name">Learn coding step by step</p>
+            </div>
+        </div> -->
+    </div>
+    <!-- video end -->
+    <!-- js -->
+    <script src="index.js"></script>
+</body>
+</html>
